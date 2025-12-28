@@ -7,6 +7,12 @@ Unlike basic image classification projects, this work not only predicts whether 
 - Explains why the model made a decision
 - Highlights affected regions in the image
 - Discovers hidden disease patterns using unsupervised learning
+- 
+# Project Description
+This project focuses on automatic detection of silkworm diseases using deep learning–based image classification. Silkworm diseases can significantly affect silk production, and early detection is essential to reduce economic loss in sericulture farms. Manual inspection is time-consuming and error-prone, which motivates the need for an automated solution.
+In this work, I designed an end-to-end deep learning pipeline that takes silkworm images as input, preprocesses them, and classifies them into healthy or diseased categories. The model learns visual disease patterns such as texture changes, discoloration, and irregular shapes from images.
+The system was trained and evaluated using standard performance metrics including accuracy, precision, recall, F1-score, and confusion matrix. Experimental results show that the model is capable of distinguishing diseased silkworms with good reliability, demonstrating the feasibility of deep learning for real-world agricultural applications.
+This project helped me gain hands-on experience in dataset handling, model training, performance evaluation, and result interpretation, and strengthened my understanding of how deep learning can be applied to real-life biological and agricultural problems.
 
 
 # Problem Statement
@@ -53,6 +59,12 @@ Each discovered pattern is mapped to:
 - A human-readable explanation
 
 This bridges the gap between deep learning predictions and biological understanding.
+
+# Key Learnings
+- Understood the complete deep learning workflow from data preprocessing to evaluation
+- Gained experience in image-based disease detection
+- Learned how to analyze confusion matrix and F1-score instead of relying only on accuracy
+- Improved skills in Python, PyTorch/TensorFlow, and GitHub project structuring
 
 # Dataset Information
 
