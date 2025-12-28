@@ -34,11 +34,11 @@ Silkworm images are resized and normalized before being passed to the model.
 - High-level feature representations are extracted from the CNN backbone.
 - These features capture disease-related textures and structural patterns.
 
-### 4️ Disease Pattern Discovery (Unsupervised Learning)
+# 4️ Disease Pattern Discovery (Unsupervised Learning)
 To analyze diseased samples:
 - PCA (Principal Component Analysis) reduces feature dimensionality.
 - KMeans clustering groups similar disease patterns.
-- 
+  
 Each cluster represents a distinct disease manifestation, discovered without manual labels.
 
 # 5️ Explainability using Grad-CAM
@@ -46,7 +46,6 @@ Each cluster represents a distinct disease manifestation, discovered without man
 - Heatmaps highlight affected areas on the silkworm body.
 - This improves transparency and trust in predictions.
 
----
 
 # 6️ Disease Reasoning
 Each discovered pattern is mapped to:
@@ -54,6 +53,20 @@ Each discovered pattern is mapped to:
 - A human-readable explanation
 
 This bridges the gap between deep learning predictions and biological understanding.
+
+# Dataset Information
+
+The dataset consists of healthy and diseased silkworm images collected from publicly available sources and curated datasets.
+
+# Dataset Structure
+dataset/
+├── healthy/
+│ ├── image1.jpg
+│ ├── image2.jpg
+├── diseased/
+│ ├── image1.jpg
+│ ├── image2.jpg
+
 
 
 # Key Features
